@@ -1,0 +1,504 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+  width: 70px;
+  height: 70px;
+  background-image: url(./logo.png);
+  background-color: aliceblue;
+  border-radius: 50px;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.flex ul {
+  color: rgb(255, 255, 255);
+}
+
+.main {
+  justify-content: space-between;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(./back1\ \(1\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.herosection {
+  color: white;
+}
+
+.background_sindh ul {
+  color: rgb(0, 0, 0);
+}
+
+.background_sindh {
+  width: 100%;
+  height: 125vh;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(124, 217, 253, 0.136), rgba(0, 0, 0, 0.594)), url(./Sindh/Some-Of-The-Top-Places-To-Visit-in-Sindh.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.background_karachi {
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(236, 249, 170, 0), rgba(0, 0, 0, 0)), url(./Sindh/Karachi/Karachi-at-night-.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background_Punjab ul {
+  color: rgb(2, 70, 8);
+
+}
+
+.background_Punjab {
+  width: 100%;
+  height: 110vh;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(236, 249, 170, 0.348), rgba(0, 0, 0, 0)), url(./Punjab/badshahi-mosque.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background_Balochistan ul {
+  color: rgb(84, 88, 55);
+}
+
+.background_Balochistan {
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(236, 249, 170, 0.348), rgba(0, 0, 0, 0)), url(./Balochistan/Ziarat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background_KPK {
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(4, 5, 0, 0), rgba(0, 0, 0, 0.451)), url(./KPK/kpk.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background_KPK h1 {
+  color: #eae8e2;
+}
+
+.herosection h1 {
+  text-shadow: -1px 2px yellow;
+}
+
+.image {
+  width: 720;
+  height: 600;
+  padding: 5px;
+  background-image: linear-gradient(rgba(4, 5, 0, 0), rgba(0, 0, 0, 0.451)), url(./KPK/kpk.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.Karachi {
+
+  height: 120vh;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 4px 3px rgba(87, 207, 255, 0.5);
+  background-color: #ddafd6a8;
+}
+
+.Balochistan {
+
+  height: 120vh;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 4px 3px rgba(87, 207, 255, 0.5);
+  background-color: #bfd8a1a8;
+}
+
+.background_culture {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(124, 217, 253, 0.136), rgba(0, 0, 0, 0.594)), url(./Balochistan/culture/culture.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background_culture .Balochistan {
+  background-color: rgba(120, 91, 54, 0.657);
+}
+
+.background_KPKculture {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(124, 217, 253, 0.136), rgba(0, 0, 0, 0.594)), url(./KPK/KPKculture/kp-govt.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.KPK {
+  background-color: rgba(235, 178, 104, 0.657);
+}
+
+.background_Punjabculture {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(124, 217, 253, 0.136), rgba(0, 0, 0, 0.594)), url(./Punjab/Punjabculture/punjabi\ culture.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Punjabiculture {
+  background-color: rgba(1, 125, 1, 0.657);
+}
+
+/*-------------------------- punjab img, imgs-------------------------*/
+#punjabi_img4 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Punjab/Punjabculture/p1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0px 50px 0px;
+  border: 8px double rgb(166, 9, 229);
+  transition: all ease 400ms;
+
+}
+
+#punjabi_img4:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#punjabi_img3 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Punjab/Punjabculture/p2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0px 50px 0px;
+  border: 8px double rgb(166, 9, 229);
+  transition: all ease 400ms;
+
+}
+
+#punjabi_img3:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#punjabi_imgs1 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Punjab/Punjabculture/p3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 50px 0px 50px;
+  border: 8px double rgb(4, 217, 255);
+  transition: all ease 400ms;
+
+}
+
+#punjabi_imgs1:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#punjabi_imgs2 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Punjab/Punjabculture/p4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 50px 0px 50px;
+  border: 8px double rgb(4, 217, 255);
+  transition: all ease 400ms;
+
+}
+
+#punjabi_imgs2:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+/*-------------------------- balochistan img, imgs-------------------------*/
+#balochistani_imgs3 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Balochistan/culture/baloochi\ food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 50px 0px 50px;
+  border: 8px double rgb(4, 217, 255);
+  transition: all ease 400ms;
+
+}
+
+#balochistani_imgs3:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#balochistani_imgs4 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Balochistan/culture/baloochi\ i.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 50px 0px 50px;
+  border: 8px double rgb(4, 217, 255);
+  transition: all ease 400ms;
+
+}
+
+#balochistani_imgs4:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#balochistani_img1 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Balochistan/culture/baloochi\ dress.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0px 50px 0px;
+  border: 8px double rgb(166, 9, 229);
+  transition: all ease 400ms;
+
+}
+
+#balochistani_img1:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+
+}
+
+#balochistani_img2 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Balochistan/culture/Alamout_Castle-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0px 50px 0px;
+  border: 8px double rgb(166, 9, 229);
+  transition: all ease 400ms;
+
+}
+
+#balochistani_img2:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+/*-------------------------- karachi img, imgs-------------------------*/
+
+#karachi_imgs3 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Sindh/Karachi/k1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 50px 0px 50px;
+  border: 8px double rgb(4, 217, 255);
+  transition: all ease 400ms;
+
+}
+
+#karachi_imgs3:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#karachi_imgs4 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Sindh/Karachi/k2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 50px 0px 50px;
+  border: 8px double rgb(4, 217, 255);
+  transition: all ease 400ms;
+
+}
+
+#karachi_imgs4:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#karachi_img1 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Sindh/Karachi/k3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0px 50px 0px;
+  border: 8px double rgb(166, 9, 229);
+  transition: all ease 400ms;
+
+}
+
+#karachi_img1:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+
+}
+
+#karachi_img2 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Sindh/Karachi/k4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0px 50px 0px;
+  border: 8px double rgb(166, 9, 229);
+  transition: all ease 400ms;
+
+}
+
+#karachi_img2:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+/*------------------------KPK img , imgs------------------------------*/
+#KPK_img4 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./KPK/KPKculture/k0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0px 50px 0px;
+  border: 8px double rgb(166, 9, 229);
+  transition: all ease 400ms;
+
+}
+
+#KPK_img4:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#KPK_img3 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./KPK/KPKculture/k1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0px 50px 0px;
+  border: 8px double rgb(166, 9, 229);
+  transition: all ease 400ms;
+
+}
+
+#KPK_img3:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#KPK_imgs1 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./KPK/KPKculture/k2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 50px 0px 50px;
+  border: 8px double rgb(4, 217, 255);
+  transition: all ease 400ms;
+
+}
+
+#KPK_imgs1:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+#KPK_imgs2 {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./KPK/KPKculture/k3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 50px 0px 50px;
+  border: 8px double rgb(4, 217, 255);
+  transition: all ease 400ms;
+
+}
+
+#KPK_imgs2:hover {
+  background-position: center;
+  transform: scale(1.2);
+  width: 300px;
+  height: 320px;
+}
+
+/*--------------------------------------------------------------------all css ends here with 2nd assignment*/
